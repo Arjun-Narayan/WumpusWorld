@@ -1,0 +1,93 @@
+.proza {
+    font-family: "Proza Libre", serif;
+}
+
+.poppins {
+    font-family: "Poppins", serif;
+}
+
+.montserrat {
+    font-family: "Montserrat", serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#start-game {
+    cursor: pointer;
+}
+
+#swap-mode {
+    margin-right: 40px;
+    width: auto;
+}
+
+section.game-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+    gap: 50px;
+}
+
+section.container {
+    border: 2px solid;
+    margin: 0px;
+}
+
+section.container>.row {
+    height: 200px;
+}
+
+section.container>.row>div {
+    height: 200px;
+    border: 2px solid;
+    text-align: left;
+    display: flex;
+    gap: 0px;
+}
+
+section.container .door-photo {
+    cursor: pointer;
+}
+
+.square-details {
+    list-style-type: square;
+}
+
+section.game-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#wumpus-pic {
+    z-index: 999;
+    width: 30vw;
+    position: fixed;
+    left: 35vw;
+    text-align: center;
+}
+
+#gold-pic {
+    z-index: 999;
+    width: 40vw;
+    position: fixed;
+    left: 30vw;
+    top: 300px;
+    text-align: center;
+}
+
+#pit-pic {
+    z-index: 999;
+    width: 40vw;
+    position: fixed;
+    left: 30vw;
+    top: 200px;
+    text-align: center;
+}
+
+#pit-pic>img {
+    width: 40vw;
+}

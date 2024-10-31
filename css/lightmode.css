@@ -1,0 +1,7 @@
+header.navbar{
+    background-color: rgb(230,230,230);
+}
+
+section.container, section.container > .row > div{
+    border-color: rgb(50,50,50);
+}
